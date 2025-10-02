@@ -54,6 +54,7 @@ Legend: ✅ Confirmed working, ❔ Unconfirmed, - Not available in the store
 | Totally Accurate Battle Simulator | ✅ | - |
 | Wo Long: Fallen Dynasty | ❔ | - |
 | Yakuza 0 | ✅ | - |
+| Hollow Knight: Silk Song | ✅ | ❔ |
 
 ## Incompatible games
 These games use different save formats than the Steam/Epic version that can't be easily converted.
