@@ -25,6 +25,11 @@
             "handler": "1c1f"
         },
         {
+            "name": "Doom Eternal",
+            "package": "BethesdaSoftworks.DOOMEternal-PC_3275kfvn8vcwc",
+            "handler": "1cnf-folder"
+        },        
+        {
             "name": "Final Fantasy XV",
             "package": "39EA002F.FINALFANTASYXVforPC_n746a19ndrrjg",
             "handler": "1c1f"
@@ -62,6 +67,14 @@
             }
         },
         {
+            "name": "Mechwarrior 5 Clans",
+            "package": "PiranhaGamesInc.MechWarrior5Clans_skpx0jhaqqap2",
+            "handler": "1c1f",
+            "handler_args": {
+                "suffix": ".sav"
+            }
+        },
+        {
             "name": "Remnant 2",
             "package": "PerfectWorldEntertainment.GFREMP2_jrajkyc4tsa6w",
             "handler": "1c1f",
@@ -81,6 +94,22 @@
             "name": "Yakuza 0",
             "package": "SEGAofAmericaInc.Yakuza0PC_s751p9cej88mt",
             "handler": "1c1f"
+        },
+        {
+            "name": "Trials of Mana",
+            "package": "39EA002F.TOMDF_n746a19ndrrjg",
+            "handler": "1c1f",
+            "handler_args": {
+                "suffix": ".sav"
+            }
+        },
+        {
+            "name": "The Alters",
+            "package": "4063811bitstudios.TheAlters_gwy9gn5q9j1y6",
+            "handler": "1c1f",
+            "handler_args": {
+                "suffix": ".sav"
+            }
         },
         // 1cnf
         // 1 container, n files
@@ -129,6 +158,14 @@
             "handler": "1cnf",
             "handler_args": {
                 "suffix": ".sav"
+            }
+        },
+        {
+            "name": "Sea of Stars",
+            "package": "SabotageStudio.SeaofStars_p3aneehax6csy",
+            "handler": "1cnf",
+            "handler_args": {
+                "suffix": ".sos"
             }
         },
         {
@@ -269,6 +306,12 @@
             "name": "Hollow Knight: Silksong",
             "package": "TeamCherry.HollowKnightSilksong_y4jvztpgccj42",
             "handler": "silk"
+        },
+        // One Lonely Outpost
+        {
+            "name": "One Lonely Outpost",
+            "package": "FreedomGames.OneLonelyOutpostGame_0c9x75n11d8wg",
+            "handler": "one-lonely-outpost"
         }
     ]
 }

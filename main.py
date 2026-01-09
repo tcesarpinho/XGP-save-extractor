@@ -1,3 +1,4 @@
+import gzip
 import json
 import os
 import struct
@@ -493,6 +494,31 @@ def get_save_paths(
                     zip_fname = f"{folder_name}/{fname}"
                 fpath = file["path"]
                 save_meta.append((zip_fname, fpath))
+
+    elif handler_name == "one-lonely-outpost":
+        # One Lonely Outpost on game pass stores its data in a single gzipped JSON file that
+        # contains all the individual files from the Steam version, so decompress it and extract
+        # the individual files
+        temp_folder = Path(temp_dir.name) / "OneLonelyOutpost"
+        temp_folder.mkdir()
+
+        container = containers[0]
+
+        with container["files"][0]["path"].open("rb") as f:
+            json_data = gzip.decompress(f.read())
+
+        data = json.loads(json_data)
+
+        for file in data["files"]["$values"]:
+            # The file names are prefixed with "ConsoleSaves/", so nix that
+            fname = file["name"].removeprefix("ConsoleSaves/")
+
+            fpath = temp_folder / fname
+            fpath.parent.mkdir(parents=True, exist_ok=True)
+            with fpath.open("w") as out_f:
+                out_f.write(file["datas"]["$values"][0])
+
+            save_meta.append((fname, fpath))
 
     else:
         raise Exception('Unsupported XGP app "%s"' % store_pkg_name)

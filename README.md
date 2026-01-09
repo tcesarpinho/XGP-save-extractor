@@ -27,6 +27,7 @@ Legend: ✅ Confirmed working, ❔ Unconfirmed, - Not available in the store
 | Coral Island | ✅ | - |
 | Clair Obscur: Expedition 33 | ✅ | - |
 | Cricket 24 | ✅ | - |
+| Doom Eternal | ✅ | ? |
 | Final Fantasy XV | ✅ | - |
 | Forza Horizon 5 | ✅ | - |
 | Fuga: Melodies of Steel 2 | ❔ | ❔ |
@@ -38,21 +39,26 @@ Legend: ✅ Confirmed working, ❔ Unconfirmed, - Not available in the store
 | Just Cause 4 | ❔ | ❔ |
 | Lies of P | ✅ | - |
 | Manor Lords | ✅ | ❔ |
+| Mechwarrior 5 Clans | ✅ | ❔ |
 | Monster Train | ✅ | - |
 | Ninja Gaiden Sigma | ✅ | - |
 | Oblivion Remastered | ✅ | ❔ |
 | Octopath Traveller | ❔ | ❔ |
+| One Lonely Outpost | ✅ | ❔ |
 | Palworld | ✅ | - |
 | Persona 5 Royal | ✅ | - |
 | Persona 5 Tactica | ✅ | - |
 | Railway Empire 2 | ❔ | ❔ |
 | Remnant 2 | ✅ | ❔ |
 | Remnant: From the Ashes | ❔ | ❔ |
+| Sea of Stars | ✅ | ❔ |
 | Solar Ash | ✅ | ❔ |
 | SpiderHeck | ✅ | ❔ |
 | Starfield | ✅ | - |
 | State of Decay 2 | ✅ | ❔ |
+| The Alters | ✅ | ❔ |
 | Totally Accurate Battle Simulator | ✅ | - |
+| Trials of Mana | ✅ | ❔ |
 | Wo Long: Fallen Dynasty | ❔ | - |
 | Yakuza 0 | ✅ | - |
 
