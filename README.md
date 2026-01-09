@@ -33,6 +33,7 @@ Legend: ✅ Confirmed working, ❔ Unconfirmed, - Not available in the store
 | Hades | ✅ | ❔ |
 | High on Life | ✅ | ❔ |
 | Hi-Fi RUSH | ✅ | ❔ |
+| Hollow Knight: Silksong | ✅ | ❔ |
 | Hypnospace Outlaw | ✅ | ❔ |
 | Just Cause 4 | ❔ | ❔ |
 | Lies of P | ✅ | - |
@@ -54,7 +55,6 @@ Legend: ✅ Confirmed working, ❔ Unconfirmed, - Not available in the store
 | Totally Accurate Battle Simulator | ✅ | - |
 | Wo Long: Fallen Dynasty | ❔ | - |
 | Yakuza 0 | ✅ | - |
-| Hollow Knight: Silk Song | ✅ | ❔ |
 
 ## Incompatible games
 These games use different save formats than the Steam/Epic version that can't be easily converted.
